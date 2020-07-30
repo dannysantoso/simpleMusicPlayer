@@ -13,6 +13,21 @@
 		E10592D02465A9A2008F9816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10592CE2465A9A2008F9816 /* Main.storyboard */; };
 		E10592D22465A9A4008F9816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E10592D12465A9A4008F9816 /* Assets.xcassets */; };
 		E10592D52465A9A4008F9816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E10592D32465A9A4008F9816 /* LaunchScreen.storyboard */; };
+		E10592DE2465CC2A008F9816 /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10592DC2465CC2A008F9816 /* MusicTableViewCell.swift */; };
+		E10592DF2465CC2A008F9816 /* MusicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E10592DD2465CC2A008F9816 /* MusicTableViewCell.xib */; };
+		E10592E42465CFAA008F9816 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10592E32465CFAA008F9816 /* Music.swift */; };
+		E10592E62465CFBC008F9816 /* MusicData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10592E52465CFBC008F9816 /* MusicData.swift */; };
+		E10592EE246628AF008F9816 /* DetailMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10592EC246628AF008F9816 /* DetailMusicViewController.swift */; };
+		E10592EF246628AF008F9816 /* DetailMusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E10592ED246628AF008F9816 /* DetailMusicViewController.xib */; };
+		E10592F72466D970008F9816 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10592F62466D970008F9816 /* ProfileViewController.swift */; };
+		E10592F92466FD61008F9816 /* music1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E10592F82466FD61008F9816 /* music1.mp3 */; };
+		E10592FE2467055C008F9816 /* music4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E10592FA2467055C008F9816 /* music4.mp3 */; };
+		E10592FF2467055C008F9816 /* music2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E10592FB2467055C008F9816 /* music2.mp3 */; };
+		E10593002467055C008F9816 /* music5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E10592FC2467055C008F9816 /* music5.mp3 */; };
+		E10593012467055C008F9816 /* music3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E10592FD2467055C008F9816 /* music3.mp3 */; };
+		E105930924670BAE008F9816 /* music6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E105930424670BAD008F9816 /* music6.mp3 */; };
+		E105930B24670BAE008F9816 /* music7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E105930624670BAE008F9816 /* music7.mp3 */; };
+		E11106C6246711070025EB4B /* music8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E11106C4246711070025EB4B /* music8.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +39,21 @@
 		E10592D12465A9A4008F9816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E10592D42465A9A4008F9816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E10592D62465A9A4008F9816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E10592DC2465CC2A008F9816 /* MusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
+		E10592DD2465CC2A008F9816 /* MusicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicTableViewCell.xib; sourceTree = "<group>"; };
+		E10592E32465CFAA008F9816 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		E10592E52465CFBC008F9816 /* MusicData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicData.swift; sourceTree = "<group>"; };
+		E10592EC246628AF008F9816 /* DetailMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMusicViewController.swift; sourceTree = "<group>"; };
+		E10592ED246628AF008F9816 /* DetailMusicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailMusicViewController.xib; sourceTree = "<group>"; };
+		E10592F62466D970008F9816 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E10592F82466FD61008F9816 /* music1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music1.mp3; sourceTree = "<group>"; };
+		E10592FA2467055C008F9816 /* music4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music4.mp3; sourceTree = "<group>"; };
+		E10592FB2467055C008F9816 /* music2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music2.mp3; sourceTree = "<group>"; };
+		E10592FC2467055C008F9816 /* music5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music5.mp3; sourceTree = "<group>"; };
+		E10592FD2467055C008F9816 /* music3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music3.mp3; sourceTree = "<group>"; };
+		E105930424670BAD008F9816 /* music6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music6.mp3; sourceTree = "<group>"; };
+		E105930624670BAE008F9816 /* music7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music7.mp3; sourceTree = "<group>"; };
+		E11106C4246711070025EB4B /* music8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music8.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +86,70 @@
 		E10592C72465A9A2008F9816 /* musicPlaylist */ = {
 			isa = PBXGroup;
 			children = (
-				E10592C82465A9A2008F9816 /* AppDelegate.swift */,
-				E10592CA2465A9A2008F9816 /* SceneDelegate.swift */,
-				E10592CC2465A9A2008F9816 /* ViewController.swift */,
-				E10592CE2465A9A2008F9816 /* Main.storyboard */,
+				E10592EA2465E35F008F9816 /* Music */,
+				E10592E72465CFD3008F9816 /* Model */,
+				E10592E12465CF6B008F9816 /* Controller */,
+				E10592E02465CF58008F9816 /* View */,
+				E10592E22465CF81008F9816 /* Base */,
 				E10592D12465A9A4008F9816 /* Assets.xcassets */,
-				E10592D32465A9A4008F9816 /* LaunchScreen.storyboard */,
 				E10592D62465A9A4008F9816 /* Info.plist */,
 			);
 			path = musicPlaylist;
+			sourceTree = "<group>";
+		};
+		E10592E02465CF58008F9816 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E10592ED246628AF008F9816 /* DetailMusicViewController.xib */,
+				E10592DD2465CC2A008F9816 /* MusicTableViewCell.xib */,
+				E10592CE2465A9A2008F9816 /* Main.storyboard */,
+				E10592D32465A9A4008F9816 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E10592E12465CF6B008F9816 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E10592F62466D970008F9816 /* ProfileViewController.swift */,
+				E10592EC246628AF008F9816 /* DetailMusicViewController.swift */,
+				E10592DC2465CC2A008F9816 /* MusicTableViewCell.swift */,
+				E10592CC2465A9A2008F9816 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E10592E22465CF81008F9816 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E10592C82465A9A2008F9816 /* AppDelegate.swift */,
+				E10592CA2465A9A2008F9816 /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E10592E72465CFD3008F9816 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E10592E52465CFBC008F9816 /* MusicData.swift */,
+				E10592E32465CFAA008F9816 /* Music.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E10592EA2465E35F008F9816 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				E10592F82466FD61008F9816 /* music1.mp3 */,
+				E10592FB2467055C008F9816 /* music2.mp3 */,
+				E10592FD2467055C008F9816 /* music3.mp3 */,
+				E10592FA2467055C008F9816 /* music4.mp3 */,
+				E10592FC2467055C008F9816 /* music5.mp3 */,
+				E105930424670BAD008F9816 /* music6.mp3 */,
+				E105930624670BAE008F9816 /* music7.mp3 */,
+				E11106C4246711070025EB4B /* music8.mp3 */,
+			);
+			path = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +212,17 @@
 			files = (
 				E10592D52465A9A4008F9816 /* LaunchScreen.storyboard in Resources */,
 				E10592D22465A9A4008F9816 /* Assets.xcassets in Resources */,
+				E11106C6246711070025EB4B /* music8.mp3 in Resources */,
+				E10592EF246628AF008F9816 /* DetailMusicViewController.xib in Resources */,
+				E10593002467055C008F9816 /* music5.mp3 in Resources */,
+				E10592FF2467055C008F9816 /* music2.mp3 in Resources */,
+				E105930924670BAE008F9816 /* music6.mp3 in Resources */,
 				E10592D02465A9A2008F9816 /* Main.storyboard in Resources */,
+				E10592F92466FD61008F9816 /* music1.mp3 in Resources */,
+				E10592FE2467055C008F9816 /* music4.mp3 in Resources */,
+				E10593012467055C008F9816 /* music3.mp3 in Resources */,
+				E10592DF2465CC2A008F9816 /* MusicTableViewCell.xib in Resources */,
+				E105930B24670BAE008F9816 /* music7.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +235,12 @@
 			files = (
 				E10592CD2465A9A2008F9816 /* ViewController.swift in Sources */,
 				E10592C92465A9A2008F9816 /* AppDelegate.swift in Sources */,
+				E10592E42465CFAA008F9816 /* Music.swift in Sources */,
+				E10592E62465CFBC008F9816 /* MusicData.swift in Sources */,
 				E10592CB2465A9A2008F9816 /* SceneDelegate.swift in Sources */,
+				E10592F72466D970008F9816 /* ProfileViewController.swift in Sources */,
+				E10592EE246628AF008F9816 /* DetailMusicViewController.swift in Sources */,
+				E10592DE2465CC2A008F9816 /* MusicTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +387,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9P78Q47KY2;
 				INFOPLIST_FILE = musicPlaylist/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +406,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9P78Q47KY2;
 				INFOPLIST_FILE = musicPlaylist/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
